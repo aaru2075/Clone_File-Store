@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "20445873"))
 API_HASH = environ.get("API_HASH", "057fd0be9d7c38526b143c582bceb24b")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7817283258:AAHgo53ZYNPXItvUfp2fKhGVsoM_7cO5apc")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7513163869:AAFEhcI1unQby8jONFrQXK5qBRAMyw6EPU4")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "@MCAMPUS_File_Bot") # without @
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7607741983, 7706713598, 5543390445, 5164955785, 6161189904').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "CLONER_Filestore_bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002165735239"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002432294589"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
